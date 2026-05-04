@@ -1,4 +1,64 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.out
+*.exe
 
+# Executables (assembly-compiled)
+learning/*/output/*
+learning/*/*/output/*
+labs/*/solution
+labs/*/vulnerable
+labs/*/*/solution
+learning/*/build/*
+learning/*/*/build/*
 
-Learn_Assembly/build
-Learn_Assembly/output
+# Object files
+*.obj
+
+# Debug files
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# Compiled Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# GDB
+.gdb_history
+.gdbinit
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Ghidra
+.ghidra/
+*.rep/
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+Reverse\ engineering.rep/
+Reverse\ engineering.lock*
+.plan.md
